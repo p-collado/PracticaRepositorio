@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ClaseParaCommit.cpp" />
     <ClCompile Include="PracticaRepo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClaseParaCommit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
